@@ -1,0 +1,1019 @@
+﻿Log file open, 11/05/17 10:23:03
+LogInit:Display: Running engine for game: Toast
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1826087534) SRandInit(-1826087534).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110101
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.05-17.23.04:224][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.05-17.23.04:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.05-17.23.04:288][  0]LogInit: Computer: DESKTOP-UMO80F6
+[2017.11.05-17.23.04:288][  0]LogInit: User: Lukas
+[2017.11.05-17.23.04:288][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.05-17.23.04:288][  0]LogInit: High frequency timer resolution =3.914160 MHz
+[2017.11.05-17.23.04:288][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.05-17.23.04:288][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.05-17.23.04:288][  0]LogMemory: Process Physical Memory: 272.79 MB used, 272.79 MB peak
+[2017.11.05-17.23.04:288][  0]LogMemory: Process Virtual Memory: 261.04 MB used, 261.04 MB peak
+[2017.11.05-17.23.04:288][  0]LogMemory: Physical Memory: 4293.27 MB used,  3881.96 MB free, 8175.23 MB total
+[2017.11.05-17.23.04:288][  0]LogMemory: Virtual Memory: 638.34 MB used,  3881.96 MB free, 134217728.00 MB total
+[2017.11.05-17.23.04:404][  0]LogInit: Using OS detected language (en-US).
+[2017.11.05-17.23.04:404][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.05-17.23.04:407][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.05-17.23.05:528][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.05-17.23.05:565][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2017.11.05-17.23.05:565][  0]LogD3D11RHI:       2017/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.05-17.23.05:566][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.05-17.23.05:567][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.05-17.23.05:567][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.05-17.23.05:573][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.05-17.23.05:573][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.05-17.23.05:573][  0]LogWindows: EnumDisplayDevices:
+[2017.11.05-17.23.05:573][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2017.11.05-17.23.05:573][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.05-17.23.05:573][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.05-17.23.05:574][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.05-17.23.05:574][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.05-17.23.05:574][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2017.11.05-17.23.05:574][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.11.05-17.23.05:574][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.11.05-17.23.05:574][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.05-17.23.05:593][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.05-17.23.05:606][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.05-17.23.05:656][  0]LogShaderCompilers: Guid format shader working directory is 31 characters bigger than the processId version (G:/ToastProject/Intermediate/Shaders/WorkingDirectory/9196/).
+[2017.11.05-17.23.05:656][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lukas/AppData/Local/Temp/UnrealShaderWorkingDir/A1E194744EF8C8346E5DFA83F9FD6175/'.
+[2017.11.05-17.23.05:656][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.05-17.23.07:180][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.05-17.23.07:265][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.05-17.23.07:348][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.05-17.23.07:433][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.05-17.23.07:516][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.05-17.23.07:599][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.05-17.23.07:681][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.05-17.23.07:765][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.05-17.23.07:842][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.05-17.23.07:926][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.05-17.23.08:009][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.05-17.23.08:090][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.05-17.23.08:170][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.05-17.23.08:250][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.05-17.23.08:329][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.05-17.23.08:494][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.05-17.23.08:494][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.05-17.23.08:560][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.05-17.23.08:700][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.05-17.23.08:751][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.05-17.23.08:834][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.05-17.23.08:914][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.05-17.23.08:995][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.05-17.23.09:076][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.05-17.23.09:076][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.05-17.23.09:932][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Lukas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lukas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/ToastProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/ToastProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.05-17.23.10:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.05-17.23.10:126][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.05-17.23.10:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lukas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.05-17.23.10:155][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.05-17.23.10:155][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.05-17.23.10:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.05-17.23.10:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.05-17.23.10:752][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.05-17.23.10:870][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.05-17.23.11:098][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.05-17.23.11:173][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.05-17.23.11:253][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.05-17.23.11:253][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.05-17.23.11:253][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.05-17.23.12:030][  0]LogNetVersion: Toast , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 164098987)
+[2017.11.05-17.23.12:126][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
+[2017.11.05-17.23.12:593][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.419408 seconds
+[2017.11.05-17.23.12:599][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.05-17.23.12:599][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.05-17.23.12:599][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.05-17.23.12:713][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.05-17.23.16:257][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.05-17.23.16:315][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.05-17.23.17:133][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.05-17.23.17:756][  0]SourceControl: Info Source control is disabled
+[2017.11.05-17.23.17:757][  0]SourceControl: Info Source control is disabled
+[2017.11.05-17.23.17:840][  0]SourceControl: Info Source control is disabled
+[2017.11.05-17.23.17:918][  0]SourceControl: Info Source control is disabled
+[2017.11.05-17.23.19:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.05-17.23.20:016][  0]LogEngine: Initializing Engine...
+[2017.11.05-17.23.20:016][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.05-17.23.20:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.05-17.23.20:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.05-17.23.20:510][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.05-17.23.20:538][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-17.23.20:560][  0]LogInit: FAudioDevice initialized.
+[2017.11.05-17.23.20:650][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Lukas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.05-17.23.20:689][  0]LogInit: Texture streaming: Enabled
+[2017.11.05-17.23.20:858][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.05-17.23.21:224][  0]LogInit: Transaction tracking system initialized
+[2017.11.05-17.23.21:754][  0]BlueprintLog: New page: Editor Load
+[2017.11.05-17.23.23:360][  0]LocalizationService: Info Localization service is disabled
+[2017.11.05-17.23.24:530][  0]LogConsoleResponse:Display: 
+[2017.11.05-17.23.24:720][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.05-17.23.24:720][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.05-17.23.25:866][  0]LogFileCache: Scanning file cache for directory 'G:/ToastProject/Content/' took 0.02s
+[2017.11.05-17.23.26:444][  0]SourceControl: Info Source control is disabled
+[2017.11.05-17.23.26:444][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.05-17.23.26:445][  0]LightingResults: New page: Lighting Build
+[2017.11.05-17.23.26:518][  0]MapCheck: New page: Map Check
+[2017.11.05-17.23.26:518][  0]LightingResults: New page: Lighting Build
+[2017.11.05-17.23.26:807][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.11.05-17.23.26:807][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.05-17.23.26:813][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.05-17.23.26:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.05-17.23.26:911][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.742ms to complete.
+[2017.11.05-17.23.26:911][  0]LogFileHelpers: Loading map 'Template_Default' took 0.467
+[2017.11.05-17.23.26:986][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.05-17.23.27:106][  0]LogCollectionManager: Loaded 0 collections in 0.005212 seconds
+[2017.11.05-17.23.27:223][  0]LogFileCache: Scanning file cache for directory 'G:/ToastProject/Saved/Collections/' took 0.01s
+[2017.11.05-17.23.27:223][  0]LogFileCache: Scanning file cache for directory 'G:/ToastProject/Content/Developers/Lukas/Collections/' took 0.01s
+[2017.11.05-17.23.27:223][  0]LogFileCache: Scanning file cache for directory 'G:/ToastProject/Content/Collections/' took 0.01s
+[2017.11.05-17.23.27:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.05-17.23.27:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2329 classes and 491 folders.
+[2017.11.05-17.23.27:354][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.05-17.23.27:404][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.05-17.23.27:478][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.05-17.23.27:538][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.05-17.23.27:544][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.05-17.23.27:546][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.05-17.23.27:552][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.05-17.23.27:704][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.11.05-17.23.27:861][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.05-17.23.27:955][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.05-17.23.27:956][  0]LogLoad: (Engine Initialization) Total time: 54.35 seconds
+[2017.11.05-17.23.27:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.11.05-17.23.27:956][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.05-17.23.27:965][  0]LogOcInput: OculusInput pre-init called
+[2017.11.05-17.23.27:965][  0]LogHMD: Starting GearVRController plugin
+[2017.11.05-17.23.28:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.05-17.23.28:087][  1]LogAssetRegistry: Asset discovery search completed in 15.9828 seconds
+[2017.11.05-17.23.28:089][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.05-17.23.28:089][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.11.05-17.24.26:418][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.24.55:216][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.26.38:210][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.26.39:956][642]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.28.18:361][450]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.11.05-17.28.19:303][557]Cmd: DELETE
+[2017.11.05-17.28.19:303][557]Cmd: ACTOR DELETE
+[2017.11.05-17.28.19:311][557]LogEditorActor: Deleted Actor: PlayerStart
+[2017.11.05-17.28.19:329][557]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.05-17.28.35:573][482]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.28.37:362][654]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.11.05-17.28.38:948][830]Cmd: DELETE
+[2017.11.05-17.28.38:948][830]Cmd: ACTOR DELETE
+[2017.11.05-17.28.38:948][830]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.11.05-17.28.40:938][830]LogEditorActor: Deleted 1 Actors (1.991 secs)
+[2017.11.05-17.28.43:145][ 82]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.28.43:743][123]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.28.45:183][280]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.11.05-17.28.49:208][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.28.49:941][780]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.28.56:210][505]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.29.14:333][536]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.05-17.29.14:918][599]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.29.16:720][793]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.29.26:192][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.29.32:590][513]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.29.43:315][719]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.30.05:782][255]Cmd: EDIT COPY
+[2017.11.05-17.30.06:003][281]Cmd: EDIT PASTE
+[2017.11.05-17.30.12:068][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.30.31:056][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.30.47:945][ 87]LogSlate: Took 0.006204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-17.30.48:397][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior" FILE="G:/ToastProject/Content/Toaster_Interior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-17.30.49:389][ 87]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.05-17.30.50:507][ 87]LogSavePackage: Save=2050.40ms
+[2017.11.05-17.30.50:507][ 87]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_InteriorD05F258B4245175C2D4D7FB89B4D5D38.tmp' to 'G:/ToastProject/Content/Toaster_Interior.umap'
+[2017.11.05-17.30.50:553][ 87]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior.umap
+[2017.11.05-17.30.50:664][ 87]LogFileHelpers: Saving map 'Toaster_Interior' took 2.823
+[2017.11.05-17.30.50:686][ 88]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-17.31.06:806][978]Cmd: EDIT COPY
+[2017.11.05-17.31.07:035][  5]Cmd: EDIT PASTE
+[2017.11.05-17.31.34:142][179]Cmd: EDIT COPY
+[2017.11.05-17.31.34:382][206]Cmd: EDIT PASTE
+[2017.11.05-17.31.37:106][517]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.31.39:623][789]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.31.40:357][837]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.11.05-17.31.40:662][867]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.31.45:245][296]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.31.58:311][768]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.31.59:152][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior" FILE="G:/ToastProject/Content/Toaster_Interior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-17.32.05:942][860]LogSavePackage: Save=6691.39ms
+[2017.11.05-17.32.05:942][860]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior329C562940D0B53548E33B8546FAB475.tmp' to 'G:/ToastProject/Content/Toaster_Interior.umap'
+[2017.11.05-17.32.06:001][860]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior.umap
+[2017.11.05-17.32.12:623][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.32.56:192][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.32.57:252][692]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.34.01:022][181]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.05-17.34.01:124][187]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.34.10:601][132]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.36.23:776][799]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:/ToastProject/Burglar Alarm/alarm.fbx)
+[2017.11.05-17.36.23:810][799]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.05-17.36.23:810][799]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.11.05-17.36.23:810][799]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.11.05-17.36.23:810][799]LogFbx: ItemName: Model, ItemCount : 3
+[2017.11.05-17.36.23:810][799]LogFbx: ItemName: Material, ItemCount : 4
+[2017.11.05-17.36.23:821][799]LogFbx: Loading FBX Scene from G:/ToastProject/Burglar Alarm/alarm.fbx
+[2017.11.05-17.36.23:835][799]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-17.36.25:655][799]LogFbx: Loading FBX Scene from G:/ToastProject/Burglar Alarm/alarm.fbx
+[2017.11.05-17.36.25:664][799]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-17.36.25:669][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Shiny_Metal'
+[2017.11.05-17.36.25:669][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Shiny_Metal'
+[2017.11.05-17.36.25:719][799]LogMaterial: Missing cached shader map for material Alarm_Shiny_Metal, compiling. 
+[2017.11.05-17.36.25:761][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Red'
+[2017.11.05-17.36.25:761][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Red'
+[2017.11.05-17.36.25:794][799]LogMaterial: Missing cached shader map for material Alarm_Red, compiling. 
+[2017.11.05-17.36.25:813][799]LogFbx:Warning: Triangulating static mesh Top
+[2017.11.05-17.36.25:903][799]LogStaticMesh: Building static mesh alarm_Top...
+[2017.11.05-17.36.25:909][799]LogStaticMesh: Built static mesh [0.01s] /Game/Alarm/alarm_Top.alarm_Top
+[2017.11.05-17.36.25:949][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Metal'
+[2017.11.05-17.36.25:950][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Metal'
+[2017.11.05-17.36.25:983][799]LogMaterial: Missing cached shader map for material Alarm_Metal, compiling. 
+[2017.11.05-17.36.26:003][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Metal_Vents'
+[2017.11.05-17.36.26:003][799]LogLinker: Can't find file '/Game/Alarm/Alarm_Metal_Vents'
+[2017.11.05-17.36.26:037][799]LogMaterial: Missing cached shader map for material Alarm_Metal_Vents, compiling. 
+[2017.11.05-17.36.26:061][799]LogFbx:Warning: Triangulating static mesh Base
+[2017.11.05-17.36.26:076][799]LogStaticMesh: Building static mesh alarm_Base...
+[2017.11.05-17.36.26:080][799]LogStaticMesh: Built static mesh [0.00s] /Game/Alarm/alarm_Base.alarm_Base
+[2017.11.05-17.36.26:117][799]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.05-17.36.59:746][ 78]LogActorFactory: Actor Factory created alarm_Base
+[2017.11.05-17.37.00:469][142]LogActorFactory: Actor Factory created alarm_Base
+[2017.11.05-17.37.01:082][202]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.07:743][966]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.10:117][220]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.13:756][591]LogActorFactory: Actor Factory created alarm_Top
+[2017.11.05-17.37.15:121][725]LogActorFactory: Actor Factory created alarm_Top
+[2017.11.05-17.37.15:287][737]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.19:869][188]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.23:375][576]Cmd: TRANSACTION UNDO
+[2017.11.05-17.37.23:375][576]LogEditorTransaction: Undo Select Brush Surface
+[2017.11.05-17.37.23:429][576]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-17.37.30:465][376]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-17.37.35:267][873]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (alarm_Top)
+[2017.11.05-17.37.49:344][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-17.37.52:255][596]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.37.54:818][845]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.38.18:970][418]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.38.21:853][716]MapCheck: New page: Map Check
+[2017.11.05-17.38.21:873][716]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.05-17.38.21:874][716]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.05-17.38.21:899][716]LightingResults: New page: Lighting Build - Nov 5, 2017, 3:38:21 AM
+[2017.11.05-17.38.22:009][716]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.05-17.38.22:069][716]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.05-17.38.22:091][716]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.05-17.38.23:122][716]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.05-17.38.23:122][716]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9196
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.05-17.38.25:313][716]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.05-17.38.25:491][716]LogEditorBuildUtils: Build time 0:03
+[2017.11.05-17.38.25:500][716]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.11.05-17.38.25:507][716]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.11.05-17.38.25:606][718]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal, compiling. 
+[2017.11.05-17.38.25:613][718]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal, compiling. 
+[2017.11.05-17.38.25:647][719]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal_Vents, compiling. 
+[2017.11.05-17.38.25:656][719]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal_Vents, compiling. 
+[2017.11.05-17.38.25:683][720]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.11.05-17.38.25:691][720]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.11.05-17.38.25:716][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Shiny_Metal, compiling. 
+[2017.11.05-17.38.25:723][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Shiny_Metal, compiling. 
+[2017.11.05-17.38.30:390][860]Job is a success!
+[2017.11.05-17.38.30:498][861]LogMaterial:Warning: Material /Game/Alarm/Alarm_Red.Alarm_Red needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-17.38.30:500][861]LogMaterial: Missing cached shader map for material Alarm_Red, compiling. 
+[2017.11.05-17.38.30:535][861]LogMaterial:Warning: Material /Game/Alarm/Alarm_Shiny_Metal.Alarm_Shiny_Metal needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-17.38.30:538][861]LogMaterial: Missing cached shader map for material Alarm_Shiny_Metal, compiling. 
+[2017.11.05-17.38.30:564][861]LogMaterial:Warning: Material /Game/Alarm/Alarm_Metal.Alarm_Metal needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-17.38.30:567][861]LogMaterial: Missing cached shader map for material Alarm_Metal, compiling. 
+[2017.11.05-17.38.30:600][861]LogMaterial:Warning: Material /Game/Alarm/Alarm_Metal_Vents.Alarm_Metal_Vents needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-17.38.30:604][861]LogMaterial: Missing cached shader map for material Alarm_Metal_Vents, compiling. 
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X128)
+[2017.11.05-17.38.30:813][861]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X256)
+[2017.11.05-17.38.30:854][861]Lightmass on DESKTOP-UMO80F6: 1.63 sec total, 199 ms importing, 44 ms setup, 305 ms photons, 1.06 sec processing, 0 ms extra exporting [35/35 mappings]. Threads: 7.28 sec total, 2.05 sec processing.
+[2017.11.05-17.38.30:908][861]LogStaticLightingSystem: Illumination: 8.99 sec (92 ms encoding lightmaps, 46 ms encoding shadowmaps)
+[2017.11.05-17.38.30:908][861]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2017.11.05-17.38.30:908][861]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.0 MB streaming, 0.3 MB non-streaming), 3 textures
+[2017.11.05-17.38.31:318][861]DumpUnbuiltLightIteractions
+[2017.11.05-17.38.31:318][861]Lights with unbuilt interactions: 0
+[2017.11.05-17.38.31:318][861]
+[2017.11.05-17.38.31:318][861]Primitives with unbuilt interactions: 0
+[2017.11.05-17.38.31:329][862]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.05-17.38.31:329][862]MapCheck: New page: Toaster_Interior - Nov 5, 2017, 3:38:31 AM
+[2017.11.05-17.38.31:462][862]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 133.024ms to complete.
+[2017.11.05-17.38.59:643][861]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.11.05-17.39.04:482][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-17.39.05:693][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior" FILE="G:/ToastProject/Content/Toaster_Interior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-17.39.09:507][530]LogSavePackage: Save=3736.41ms
+[2017.11.05-17.39.09:507][530]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_InteriorBA19106A45383A472FF679A2E020165E.tmp' to 'G:/ToastProject/Content/Toaster_Interior.umap'
+[2017.11.05-17.39.09:567][530]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior.umap
+[2017.11.05-17.39.09:656][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior_BuiltData" FILE="G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset" SILENT=true
+[2017.11.05-17.39.10:504][530]LogSavePackage: Save=817.80ms
+[2017.11.05-17.39.10:504][530]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior_BuiltData65EF23F34BF7179647BD96A426E69906.tmp' to 'G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset'
+[2017.11.05-17.39.10:553][530]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset
+[2017.11.05-17.49.06:330][318]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Toaster_Interior' took 0.015
+[2017.11.05-17.49.06:366][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/alarm_Top] ([1] browsable assets)...
+[2017.11.05-17.49.06:390][318]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Alarm/alarm_Top.alarm_Top]
+[2017.11.05-17.49.06:390][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/alarm_Top]
+[2017.11.05-17.49.06:390][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/alarm_Top" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Top_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.06:787][318]LogSavePackage: Save=366.57ms
+[2017.11.05-17.49.06:787][318]LogSavePackage: Moving 'G:/ToastProject/Saved/alarm_Top_Auto127D878C54B9EB799D33DA18B93B03C57.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Top_Auto1.uasset'
+[2017.11.05-17.49.06:801][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Top_Auto1.uasset
+[2017.11.05-17.49.06:802][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/Alarm_Shiny_Metal] ([1] browsable assets)...
+[2017.11.05-17.49.06:824][318]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Alarm/Alarm_Shiny_Metal.Alarm_Shiny_Metal]
+[2017.11.05-17.49.06:824][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/Alarm_Shiny_Metal]
+[2017.11.05-17.49.06:824][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/Alarm_Shiny_Metal" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Shiny_Metal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.06:888][318]LogSavePackage: Save=34.04ms
+[2017.11.05-17.49.06:888][318]LogSavePackage: Moving 'G:/ToastProject/Saved/Alarm_Shiny_Metal_Auto19642DD584BE14EFC246AD8B008E63227.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Shiny_Metal_Auto1.uasset'
+[2017.11.05-17.49.06:902][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Shiny_Metal_Auto1.uasset
+[2017.11.05-17.49.06:904][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/Alarm_Red] ([1] browsable assets)...
+[2017.11.05-17.49.06:924][318]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Alarm/Alarm_Red.Alarm_Red]
+[2017.11.05-17.49.06:924][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/Alarm_Red]
+[2017.11.05-17.49.06:924][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/Alarm_Red" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Red_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.06:989][318]LogSavePackage: Save=33.63ms
+[2017.11.05-17.49.06:989][318]LogSavePackage: Moving 'G:/ToastProject/Saved/Alarm_Red_Auto13BE9F250445A33F346C62A98386AA7A9.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Red_Auto1.uasset'
+[2017.11.05-17.49.07:003][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Red_Auto1.uasset
+[2017.11.05-17.49.07:004][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/alarm_Base] ([1] browsable assets)...
+[2017.11.05-17.49.07:024][318]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Alarm/alarm_Base.alarm_Base]
+[2017.11.05-17.49.07:024][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/alarm_Base]
+[2017.11.05-17.49.07:024][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/alarm_Base" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Base_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.07:450][318]LogSavePackage: Save=383.51ms
+[2017.11.05-17.49.07:450][318]LogSavePackage: Moving 'G:/ToastProject/Saved/alarm_Base_Auto1E76E26E24C6AAF8A736342A002B14FEC.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Base_Auto1.uasset'
+[2017.11.05-17.49.07:463][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/alarm_Base_Auto1.uasset
+[2017.11.05-17.49.07:465][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/Alarm_Metal] ([1] browsable assets)...
+[2017.11.05-17.49.07:484][318]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Alarm/Alarm_Metal.Alarm_Metal]
+[2017.11.05-17.49.07:484][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/Alarm_Metal]
+[2017.11.05-17.49.07:484][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/Alarm_Metal" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.07:547][318]LogSavePackage: Save=33.41ms
+[2017.11.05-17.49.07:547][318]LogSavePackage: Moving 'G:/ToastProject/Saved/Alarm_Metal_Auto162F90A0149A83D4549B5E09005064AE6.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Auto1.uasset'
+[2017.11.05-17.49.07:562][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Auto1.uasset
+[2017.11.05-17.49.07:563][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Alarm/Alarm_Metal_Vents] ([1] browsable assets)...
+[2017.11.05-17.49.07:583][318]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Alarm/Alarm_Metal_Vents.Alarm_Metal_Vents]
+[2017.11.05-17.49.07:583][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Alarm/Alarm_Metal_Vents]
+[2017.11.05-17.49.07:583][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Alarm/Alarm_Metal_Vents" FILE="G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Vents_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-17.49.07:647][318]LogSavePackage: Save=33.33ms
+[2017.11.05-17.49.07:647][318]LogSavePackage: Moving 'G:/ToastProject/Saved/Alarm_Metal_Vents_Auto18D6FA2B142E1392751C68EB7ED0DF088.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Vents_Auto1.uasset'
+[2017.11.05-17.49.07:661][318]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Alarm/Alarm_Metal_Vents_Auto1.uasset
+[2017.11.05-17.49.07:661][318]LogFileHelpers: Auto-saving content packages took 1.331
+[2017.11.05-18.07.37:556][712]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:/ToastProject/toaster.FBX)
+[2017.11.05-18.07.37:795][712]LogFbx: ItemName: Model, ItemCount : 20
+[2017.11.05-18.07.37:795][712]LogFbx: ItemName: Material, ItemCount : 6
+[2017.11.05-18.07.37:795][712]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.11.05-18.07.37:795][712]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.05-18.07.37:802][712]LogFbx: Loading FBX Scene from G:/ToastProject/toaster.FBX
+[2017.11.05-18.07.38:060][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.07.51:885][712]LogFbx: Loading FBX Scene from G:/ToastProject/toaster.FBX
+[2017.11.05-18.07.52:133][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.07.52:152][712]LogLinker: Can't find file '/Game/Toaster_Model/03_-_Default'
+[2017.11.05-18.07.52:152][712]LogLinker: Can't find file '/Game/Toaster_Model/03_-_Default'
+[2017.11.05-18.07.52:202][712]LogMaterial: Missing cached shader map for material 03_-_Default, compiling. 
+[2017.11.05-18.07.52:220][712]LogFbx:Warning: Triangulating static mesh Line01
+[2017.11.05-18.08.13:955][712]LogStaticMesh: Building static mesh toaster_Line01...
+[2017.11.05-18.08.15:608][712]LogStaticMesh: Built static mesh [1.65s] /Game/Toaster_Model/toaster_Line01.toaster_Line01
+[2017.11.05-18.08.15:742][712]LogStaticMesh:Warning: toaster_Line01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.08.15:890][712]LogLinker: Can't find file '/Game/Toaster_Model/02_-_Default'
+[2017.11.05-18.08.15:890][712]LogLinker: Can't find file '/Game/Toaster_Model/02_-_Default'
+[2017.11.05-18.08.15:923][712]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.11.05-18.08.15:942][712]LogFbx:Warning: Triangulating static mesh Box89
+[2017.11.05-18.08.16:024][712]LogStaticMesh: Building static mesh toaster_Box89...
+[2017.11.05-18.08.16:061][712]LogStaticMesh: Built static mesh [0.04s] /Game/Toaster_Model/toaster_Box89.toaster_Box89
+[2017.11.05-18.08.16:105][712]LogLinker: Can't find file '/Game/Toaster_Model/07_-_Default'
+[2017.11.05-18.08.16:106][712]LogLinker: Can't find file '/Game/Toaster_Model/07_-_Default'
+[2017.11.05-18.08.16:139][712]LogMaterial: Missing cached shader map for material 07_-_Default, compiling. 
+[2017.11.05-18.08.16:160][712]LogStaticMesh: Building static mesh toaster_Plane01...
+[2017.11.05-18.08.16:161][712]LogStaticMesh: Built static mesh [0.00s] /Game/Toaster_Model/toaster_Plane01.toaster_Plane01
+[2017.11.05-18.08.16:202][712]LogStaticMesh: Building static mesh toaster_Box02...
+[2017.11.05-18.08.16:229][712]LogStaticMesh: Built static mesh [0.03s] /Game/Toaster_Model/toaster_Box02.toaster_Box02
+[2017.11.05-18.08.16:273][712]LogLinker: Can't find file '/Game/Toaster_Model/09_-_Default'
+[2017.11.05-18.08.16:273][712]LogLinker: Can't find file '/Game/Toaster_Model/09_-_Default'
+[2017.11.05-18.08.16:306][712]LogMaterial: Missing cached shader map for material 09_-_Default, compiling. 
+[2017.11.05-18.08.16:346][712]LogStaticMesh: Building static mesh toaster_Box03...
+[2017.11.05-18.08.16:382][712]LogStaticMesh: Built static mesh [0.04s] /Game/Toaster_Model/toaster_Box03.toaster_Box03
+[2017.11.05-18.08.16:479][712]LogStaticMesh: Building static mesh toaster_Object02...
+[2017.11.05-18.08.16:905][712]LogStaticMesh: Built static mesh [0.43s] /Game/Toaster_Model/toaster_Object02.toaster_Object02
+[2017.11.05-18.08.16:970][712]LogStaticMesh: Building static mesh toaster_Box04...
+[2017.11.05-18.08.16:975][712]LogStaticMesh: Built static mesh [0.01s] /Game/Toaster_Model/toaster_Box04.toaster_Box04
+[2017.11.05-18.08.17:035][712]LogStaticMesh: Building static mesh toaster_Cylinder01...
+[2017.11.05-18.08.17:228][712]LogStaticMesh: Built static mesh [0.19s] /Game/Toaster_Model/toaster_Cylinder01.toaster_Cylinder01
+[2017.11.05-18.08.17:304][712]LogLinker: Can't find file '/Game/Toaster_Model/01_-_Default'
+[2017.11.05-18.08.17:304][712]LogLinker: Can't find file '/Game/Toaster_Model/01_-_Default'
+[2017.11.05-18.08.17:339][712]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.11.05-18.08.17:376][712]LogStaticMesh: Building static mesh toaster_Object03...
+[2017.11.05-18.08.17:467][712]LogStaticMesh: Built static mesh [0.09s] /Game/Toaster_Model/toaster_Object03.toaster_Object03
+[2017.11.05-18.08.17:513][712]LogFbx:Warning: Triangulating static mesh Cylinder02
+[2017.11.05-18.08.18:587][712]LogStaticMesh: Building static mesh toaster_Cylinder02...
+[2017.11.05-18.08.18:667][712]LogStaticMesh: Built static mesh [0.08s] /Game/Toaster_Model/toaster_Cylinder02.toaster_Cylinder02
+[2017.11.05-18.08.18:722][712]LogFbx:Warning: Triangulating static mesh Line02
+[2017.11.05-18.08.40:862][712]LogStaticMesh: Building static mesh toaster_Line02...
+[2017.11.05-18.08.42:516][712]LogStaticMesh: Built static mesh [1.65s] /Game/Toaster_Model/toaster_Line02.toaster_Line02
+[2017.11.05-18.08.42:638][712]LogStaticMesh:Warning: toaster_Line02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.08.42:792][712]LogFbx:Warning: Triangulating static mesh Line03
+[2017.11.05-18.09.05:118][712]LogStaticMesh: Building static mesh toaster_Line03...
+[2017.11.05-18.09.06:797][712]LogStaticMesh: Built static mesh [1.68s] /Game/Toaster_Model/toaster_Line03.toaster_Line03
+[2017.11.05-18.09.06:924][712]LogStaticMesh:Warning: toaster_Line03 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.09.07:085][712]LogFbx:Warning: Triangulating static mesh Line04
+[2017.11.05-18.09.28:972][712]LogStaticMesh: Building static mesh toaster_Line04...
+[2017.11.05-18.09.30:661][712]LogStaticMesh: Built static mesh [1.69s] /Game/Toaster_Model/toaster_Line04.toaster_Line04
+[2017.11.05-18.09.30:792][712]LogStaticMesh:Warning: toaster_Line04 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.09.30:947][712]LogFbx:Warning: Triangulating static mesh Box90
+[2017.11.05-18.09.31:029][712]LogStaticMesh: Building static mesh toaster_Box90...
+[2017.11.05-18.09.31:062][712]LogStaticMesh: Built static mesh [0.03s] /Game/Toaster_Model/toaster_Box90.toaster_Box90
+[2017.11.05-18.09.31:110][712]LogStaticMesh: Building static mesh toaster_Object...
+[2017.11.05-18.09.31:185][712]LogStaticMesh: Built static mesh [0.08s] /Game/Toaster_Model/toaster_Object.toaster_Object
+[2017.11.05-18.09.31:197][712]LogStaticMesh:Warning: toaster_Object has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.09.31:252][712]LogLinker: Can't find file '/Game/Toaster_Model/08_-_Default'
+[2017.11.05-18.09.31:253][712]LogLinker: Can't find file '/Game/Toaster_Model/08_-_Default'
+[2017.11.05-18.09.31:286][712]LogMaterial: Missing cached shader map for material 08_-_Default, compiling. 
+[2017.11.05-18.09.31:313][712]LogStaticMesh: Building static mesh toaster_Object05...
+[2017.11.05-18.09.31:333][712]LogStaticMesh: Built static mesh [0.02s] /Game/Toaster_Model/toaster_Object05.toaster_Object05
+[2017.11.05-18.09.31:457][712]LogStaticMesh: Building static mesh toaster_Box01...
+[2017.11.05-18.09.32:034][712]LogStaticMesh: Built static mesh [0.58s] /Game/Toaster_Model/toaster_Box01.toaster_Box01
+[2017.11.05-18.09.32:368][712]LogStaticMesh: Building static mesh toaster_Object01...
+[2017.11.05-18.09.33:080][712]LogStaticMesh: Built static mesh [0.71s] /Game/Toaster_Model/toaster_Object01.toaster_Object01
+[2017.11.05-18.09.33:152][712]LogStaticMesh:Warning: toaster_Object01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.05-18.09.33:262][712]LogStaticMesh: Building static mesh toaster_Line05...
+[2017.11.05-18.09.33:292][712]LogStaticMesh: Built static mesh [0.03s] /Game/Toaster_Model/toaster_Line05.toaster_Line05
+[2017.11.05-18.09.33:379][712]FBXImport:Warning: Warning toaster_Line01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.33:379][712]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.05-18.09.33:379][712]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning toaster_Line02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning toaster_Line03 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning toaster_Line04 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning toaster_Object has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.33:380][712]FBXImport:Warning: Warning toaster_Object01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.05-18.09.37:087][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Toaster_Interior' took 0.018
+[2017.11.05-18.09.37:107][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Line01] ([1] browsable assets)...
+[2017.11.05-18.09.37:125][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Line01.toaster_Line01]
+[2017.11.05-18.09.37:125][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Line01]
+[2017.11.05-18.09.37:125][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Line01" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.37:594][723]LogSavePackage: Save=437.89ms
+[2017.11.05-18.09.37:594][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Line01_Auto2C671A5F04703EDD2656273A3F2AC1C5A.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line01_Auto2.uasset'
+[2017.11.05-18.09.37:608][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line01_Auto2.uasset
+[2017.11.05-18.09.37:609][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/03_-_Default] ([1] browsable assets)...
+[2017.11.05-18.09.37:627][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/03_-_Default.03_-_Default]
+[2017.11.05-18.09.37:627][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/03_-_Default]
+[2017.11.05-18.09.37:627][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/03_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/03_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.37:691][723]LogSavePackage: Save=34.12ms
+[2017.11.05-18.09.37:691][723]LogSavePackage: Moving 'G:/ToastProject/Saved/03_-_Default_Auto29100E382486A99A6CBF5E89EA1F9AF36.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/03_-_Default_Auto2.uasset'
+[2017.11.05-18.09.37:706][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/03_-_Default_Auto2.uasset
+[2017.11.05-18.09.37:707][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box89] ([1] browsable assets)...
+[2017.11.05-18.09.37:724][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box89.toaster_Box89]
+[2017.11.05-18.09.37:725][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box89]
+[2017.11.05-18.09.37:725][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box89" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box89_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.38:092][723]LogSavePackage: Save=336.26ms
+[2017.11.05-18.09.38:092][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box89_Auto2CC1D4747408610F8EE0ECCA9DF9A8394.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box89_Auto2.uasset'
+[2017.11.05-18.09.38:106][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box89_Auto2.uasset
+[2017.11.05-18.09.38:107][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/02_-_Default] ([1] browsable assets)...
+[2017.11.05-18.09.38:125][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/02_-_Default.02_-_Default]
+[2017.11.05-18.09.38:125][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/02_-_Default]
+[2017.11.05-18.09.38:125][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/02_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/02_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.38:190][723]LogSavePackage: Save=34.38ms
+[2017.11.05-18.09.38:190][723]LogSavePackage: Moving 'G:/ToastProject/Saved/02_-_Default_Auto2A4361CAF43CAF8E63B479798435FC86B.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/02_-_Default_Auto2.uasset'
+[2017.11.05-18.09.38:204][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/02_-_Default_Auto2.uasset
+[2017.11.05-18.09.38:205][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Plane01] ([1] browsable assets)...
+[2017.11.05-18.09.38:223][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Plane01.toaster_Plane01]
+[2017.11.05-18.09.38:223][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Plane01]
+[2017.11.05-18.09.38:223][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Plane01" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Plane01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.38:288][723]LogSavePackage: Save=33.87ms
+[2017.11.05-18.09.38:288][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Plane01_Auto21A184457492F6C37922388B7FA88C9F1.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Plane01_Auto2.uasset'
+[2017.11.05-18.09.38:303][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Plane01_Auto2.uasset
+[2017.11.05-18.09.38:304][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/07_-_Default] ([1] browsable assets)...
+[2017.11.05-18.09.38:323][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/07_-_Default.07_-_Default]
+[2017.11.05-18.09.38:323][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/07_-_Default]
+[2017.11.05-18.09.38:323][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/07_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/07_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.38:388][723]LogSavePackage: Save=34.40ms
+[2017.11.05-18.09.38:388][723]LogSavePackage: Moving 'G:/ToastProject/Saved/07_-_Default_Auto2AA8AF90E4EF97E1B06035DA83A68CF05.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/07_-_Default_Auto2.uasset'
+[2017.11.05-18.09.38:403][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/07_-_Default_Auto2.uasset
+[2017.11.05-18.09.38:405][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box02] ([1] browsable assets)...
+[2017.11.05-18.09.38:422][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box02.toaster_Box02]
+[2017.11.05-18.09.38:422][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box02]
+[2017.11.05-18.09.38:422][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box02" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box02_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.38:808][723]LogSavePackage: Save=354.89ms
+[2017.11.05-18.09.38:808][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box02_Auto28A95EBB849FD9512D534289E06663AB9.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box02_Auto2.uasset'
+[2017.11.05-18.09.38:822][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box02_Auto2.uasset
+[2017.11.05-18.09.38:823][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box03] ([1] browsable assets)...
+[2017.11.05-18.09.38:842][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box03.toaster_Box03]
+[2017.11.05-18.09.38:842][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box03]
+[2017.11.05-18.09.38:842][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box03" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box03_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.39:260][723]LogSavePackage: Save=388.42ms
+[2017.11.05-18.09.39:260][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box03_Auto210F9E9754A4868DD3D49AAB33F818341.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box03_Auto2.uasset'
+[2017.11.05-18.09.41:963][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box03_Auto2.uasset
+[2017.11.05-18.09.41:964][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/09_-_Default] ([1] browsable assets)...
+[2017.11.05-18.09.41:983][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/09_-_Default.09_-_Default]
+[2017.11.05-18.09.41:983][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/09_-_Default]
+[2017.11.05-18.09.41:983][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/09_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/09_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.42:048][723]LogSavePackage: Save=34.83ms
+[2017.11.05-18.09.42:048][723]LogSavePackage: Moving 'G:/ToastProject/Saved/09_-_Default_Auto2798BCF23462B9C751A6492B0DA5562BB.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/09_-_Default_Auto2.uasset'
+[2017.11.05-18.09.42:062][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/09_-_Default_Auto2.uasset
+[2017.11.05-18.09.42:064][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Object02] ([1] browsable assets)...
+[2017.11.05-18.09.42:082][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Object02.toaster_Object02]
+[2017.11.05-18.09.42:082][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Object02]
+[2017.11.05-18.09.42:082][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Object02" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object02_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.42:528][723]LogSavePackage: Save=415.49ms
+[2017.11.05-18.09.42:528][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Object02_Auto27AC7D3E74DB4FC0B1481CE8254E489B0.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object02_Auto2.uasset'
+[2017.11.05-18.09.42:542][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object02_Auto2.uasset
+[2017.11.05-18.09.42:543][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box04] ([1] browsable assets)...
+[2017.11.05-18.09.42:563][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box04.toaster_Box04]
+[2017.11.05-18.09.42:563][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box04]
+[2017.11.05-18.09.42:563][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box04" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box04_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.42:981][723]LogSavePackage: Save=387.26ms
+[2017.11.05-18.09.42:981][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box04_Auto2A47D347E479D168417E299A0982E835B.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box04_Auto2.uasset'
+[2017.11.05-18.09.42:995][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box04_Auto2.uasset
+[2017.11.05-18.09.42:996][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Cylinder01] ([1] browsable assets)...
+[2017.11.05-18.09.43:015][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Cylinder01.toaster_Cylinder01]
+[2017.11.05-18.09.43:015][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Cylinder01]
+[2017.11.05-18.09.43:015][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Cylinder01" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.43:440][723]LogSavePackage: Save=395.01ms
+[2017.11.05-18.09.43:440][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Cylinder01_Auto2E280EAF248B49E2F7849EAA173C23F3B.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder01_Auto2.uasset'
+[2017.11.05-18.09.43:454][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder01_Auto2.uasset
+[2017.11.05-18.09.43:456][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Object03] ([1] browsable assets)...
+[2017.11.05-18.09.43:474][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Object03.toaster_Object03]
+[2017.11.05-18.09.43:474][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Object03]
+[2017.11.05-18.09.43:474][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Object03" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object03_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.47:017][723]LogSavePackage: Save=3513.22ms
+[2017.11.05-18.09.47:018][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Object03_Auto2D7C6BC7D4E077B3BF456E6A5C1F72A8B.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object03_Auto2.uasset'
+[2017.11.05-18.09.47:032][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object03_Auto2.uasset
+[2017.11.05-18.09.47:033][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/01_-_Default] ([1] browsable assets)...
+[2017.11.05-18.09.47:053][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/01_-_Default.01_-_Default]
+[2017.11.05-18.09.47:053][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/01_-_Default]
+[2017.11.05-18.09.47:053][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/01_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.47:118][723]LogSavePackage: Save=35.25ms
+[2017.11.05-18.09.47:118][723]LogSavePackage: Moving 'G:/ToastProject/Saved/01_-_Default_Auto2D45C16884E3C5560428A00802FDAF29A.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto2.uasset'
+[2017.11.05-18.09.47:133][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto2.uasset
+[2017.11.05-18.09.47:134][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Cylinder02] ([1] browsable assets)...
+[2017.11.05-18.09.47:153][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Cylinder02.toaster_Cylinder02]
+[2017.11.05-18.09.47:154][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Cylinder02]
+[2017.11.05-18.09.47:154][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Cylinder02" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder02_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.47:587][723]LogSavePackage: Save=402.01ms
+[2017.11.05-18.09.47:587][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Cylinder02_Auto222BEBCBB4FBC21A9628130B6BE33AF62.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder02_Auto2.uasset'
+[2017.11.05-18.09.47:601][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Cylinder02_Auto2.uasset
+[2017.11.05-18.09.47:602][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Line02] ([1] browsable assets)...
+[2017.11.05-18.09.47:620][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Line02.toaster_Line02]
+[2017.11.05-18.09.47:620][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Line02]
+[2017.11.05-18.09.47:620][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Line02" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line02_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.48:082][723]LogSavePackage: Save=431.41ms
+[2017.11.05-18.09.48:082][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Line02_Auto22B827CDC46A035DED42939976A6F66C2.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line02_Auto2.uasset'
+[2017.11.05-18.09.48:097][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line02_Auto2.uasset
+[2017.11.05-18.09.48:098][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Line03] ([1] browsable assets)...
+[2017.11.05-18.09.48:117][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Line03.toaster_Line03]
+[2017.11.05-18.09.48:117][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Line03]
+[2017.11.05-18.09.48:117][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Line03" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line03_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.48:581][723]LogSavePackage: Save=434.20ms
+[2017.11.05-18.09.48:581][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Line03_Auto219FA595348CC4FC389B5C8B32243C5A0.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line03_Auto2.uasset'
+[2017.11.05-18.09.48:595][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line03_Auto2.uasset
+[2017.11.05-18.09.48:597][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Line04] ([1] browsable assets)...
+[2017.11.05-18.09.48:616][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Line04.toaster_Line04]
+[2017.11.05-18.09.48:616][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Line04]
+[2017.11.05-18.09.48:616][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Line04" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line04_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.53:277][723]LogSavePackage: Save=4629.45ms
+[2017.11.05-18.09.53:278][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Line04_Auto2499C4F1A4108CC00DD180CA6DB6715D3.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line04_Auto2.uasset'
+[2017.11.05-18.09.53:656][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line04_Auto2.uasset
+[2017.11.05-18.09.53:658][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box90] ([1] browsable assets)...
+[2017.11.05-18.09.53:676][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box90.toaster_Box90]
+[2017.11.05-18.09.53:676][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box90]
+[2017.11.05-18.09.53:676][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box90" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box90_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.09.57:459][723]LogSavePackage: Save=1792.26ms
+[2017.11.05-18.09.57:459][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box90_Auto25618CFB34C71030E03BE04B436E57F37.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box90_Auto2.uasset'
+[2017.11.05-18.09.57:473][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box90_Auto2.uasset
+[2017.11.05-18.09.57:475][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Object] ([1] browsable assets)...
+[2017.11.05-18.09.57:493][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Object.toaster_Object]
+[2017.11.05-18.09.57:493][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Object]
+[2017.11.05-18.09.57:493][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Object" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.00:412][723]LogSavePackage: Save=351.07ms
+[2017.11.05-18.10.00:412][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Object_Auto2503E82314B831C87213E35B12333E2AF.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object_Auto2.uasset'
+[2017.11.05-18.10.00:426][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object_Auto2.uasset
+[2017.11.05-18.10.00:428][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Object05] ([1] browsable assets)...
+[2017.11.05-18.10.00:446][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Object05.toaster_Object05]
+[2017.11.05-18.10.00:446][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Object05]
+[2017.11.05-18.10.00:446][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Object05" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object05_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.00:870][723]LogSavePackage: Save=390.12ms
+[2017.11.05-18.10.00:870][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Object05_Auto2749EA4A44E9206DE2CE1D8890E09C27C.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object05_Auto2.uasset'
+[2017.11.05-18.10.00:885][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object05_Auto2.uasset
+[2017.11.05-18.10.00:886][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/08_-_Default] ([1] browsable assets)...
+[2017.11.05-18.10.00:904][723]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/08_-_Default.08_-_Default]
+[2017.11.05-18.10.00:904][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/08_-_Default]
+[2017.11.05-18.10.00:904][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/08_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/08_-_Default_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.00:969][723]LogSavePackage: Save=33.55ms
+[2017.11.05-18.10.00:969][723]LogSavePackage: Moving 'G:/ToastProject/Saved/08_-_Default_Auto2D47930A34B19F4E1574E079E3AC8E516.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/08_-_Default_Auto2.uasset'
+[2017.11.05-18.10.00:984][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/08_-_Default_Auto2.uasset
+[2017.11.05-18.10.00:985][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Box01] ([1] browsable assets)...
+[2017.11.05-18.10.01:004][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Box01.toaster_Box01]
+[2017.11.05-18.10.01:004][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Box01]
+[2017.11.05-18.10.01:005][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Box01" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.01:404][723]LogSavePackage: Save=366.75ms
+[2017.11.05-18.10.01:404][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Box01_Auto20E9E9CF048691B3D6AD23E92E915C008.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box01_Auto2.uasset'
+[2017.11.05-18.10.01:418][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Box01_Auto2.uasset
+[2017.11.05-18.10.01:420][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Object01] ([1] browsable assets)...
+[2017.11.05-18.10.01:439][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Object01.toaster_Object01]
+[2017.11.05-18.10.01:439][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Object01]
+[2017.11.05-18.10.01:439][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Object01" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.01:841][723]LogSavePackage: Save=370.36ms
+[2017.11.05-18.10.01:841][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Object01_Auto286C88F6F49F471D9D1BC69B63321D61A.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object01_Auto2.uasset'
+[2017.11.05-18.10.01:855][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Object01_Auto2.uasset
+[2017.11.05-18.10.01:856][723]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/toaster_Line05] ([1] browsable assets)...
+[2017.11.05-18.10.01:875][723]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Toaster_Model/toaster_Line05.toaster_Line05]
+[2017.11.05-18.10.01:875][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/toaster_Line05]
+[2017.11.05-18.10.01:875][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/toaster_Line05" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line05_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.10.02:249][723]LogSavePackage: Save=341.98ms
+[2017.11.05-18.10.02:249][723]LogSavePackage: Moving 'G:/ToastProject/Saved/toaster_Line05_Auto21D276F5341613C9B75985F8AC837C4A6.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line05_Auto2.uasset'
+[2017.11.05-18.10.02:263][723]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/toaster_Line05_Auto2.uasset
+[2017.11.05-18.10.02:263][723]LogFileHelpers: Auto-saving content packages took 25.176
+[2017.11.05-18.10.30:270][580]LogActorFactory: Actor Factory created toaster_Object01
+[2017.11.05-18.10.33:407][850]LogActorFactory: Actor Factory created toaster_Object01
+[2017.11.05-18.10.33:882][893]LogActorFactory: Actor Factory created toaster_Object01
+[2017.11.05-18.10.34:752][977]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.10.37:149][222]Cmd: DELETE
+[2017.11.05-18.10.37:149][222]Cmd: ACTOR DELETE
+[2017.11.05-18.10.37:150][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.05-18.10.37:167][222]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.05-18.11.20:894][521]MapCheck: New page: Map Check
+[2017.11.05-18.11.20:905][521]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.05-18.11.20:905][521]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.05-18.11.20:918][521]LightingResults: New page: Lighting Build - Nov 5, 2017, 4:11:20 AM
+[2017.11.05-18.11.20:977][521]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.05-18.11.20:980][521]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.05-18.11.20:980][521]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.05-18.11.20:981][521]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.05-18.11.20:981][521]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9196
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.05-18.11.25:499][521]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.05-18.11.25:618][521]LogEditorBuildUtils: Build time 0:04
+[2017.11.05-18.11.25:642][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal, compiling. 
+[2017.11.05-18.11.25:649][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal, compiling. 
+[2017.11.05-18.11.25:677][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal_Vents, compiling. 
+[2017.11.05-18.11.25:687][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Metal_Vents, compiling. 
+[2017.11.05-18.11.25:741][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.11.05-18.11.25:750][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Red, compiling. 
+[2017.11.05-18.11.25:769][524]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Shiny_Metal, compiling. 
+[2017.11.05-18.11.25:777][524]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Alarm_Shiny_Metal, compiling. 
+[2017.11.05-18.11.29:993][622]Job is a success!
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X128)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.11.05-18.11.30:230][623]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 256X256)
+[2017.11.05-18.11.30:263][623]Lightmass on DESKTOP-UMO80F6: 1.35 sec total, 161 ms importing, 30 ms setup, 307 ms photons, 828 ms processing, 0 ms extra exporting [35/35 mappings]. Threads: 5.64 sec total, 2.30 sec processing.
+[2017.11.05-18.11.30:279][623]LogStaticLightingSystem: Illumination: 9.32 sec (82 ms encoding lightmaps, 56 ms encoding shadowmaps)
+[2017.11.05-18.11.30:279][623]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2017.11.05-18.11.30:279][623]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.0 MB streaming, 0.3 MB non-streaming), 3 textures
+[2017.11.05-18.11.30:503][623]DumpUnbuiltLightIteractions
+[2017.11.05-18.11.30:503][623]Lights with unbuilt interactions: 0
+[2017.11.05-18.11.30:503][623]
+[2017.11.05-18.11.30:503][623]Primitives with unbuilt interactions: 0
+[2017.11.05-18.11.30:513][624]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.05-18.11.30:513][624]MapCheck: New page: Toaster_Interior - Nov 5, 2017, 4:11:30 AM
+[2017.11.05-18.11.30:613][624]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.199ms to complete.
+[2017.11.05-18.11.46:426][568]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:/ToastProject/house plant 1/house plant.obj)
+[2017.11.05-18.11.46:442][568]LogFbx: Loading FBX Scene from G:/ToastProject/house plant 1/house plant.obj
+[2017.11.05-18.11.46:704][568]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.11.48:304][568]LogFbx: Loading FBX Scene from G:/ToastProject/house plant 1/house plant.obj
+[2017.11.05-18.11.48:564][568]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.11.48:569][568]LogLinker: Can't find file '/Game/Plant/_null_Mat'
+[2017.11.05-18.11.48:570][568]LogLinker: Can't find file '/Game/Plant/_null_Mat'
+[2017.11.05-18.11.48:619][568]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.11.05-18.11.48:640][568]LogFbx:Warning: Triangulating static mesh (null)
+[2017.11.05-18.11.53:895][568]LogStaticMesh: Building static mesh house_plant...
+[2017.11.05-18.11.54:224][568]LogStaticMesh: Built static mesh [0.33s] /Game/Plant/house_plant.house_plant
+[2017.11.05-18.12.01:907][239]LogActorFactory: Actor Factory created house_plant
+[2017.11.05-18.12.02:819][338]LogActorFactory: Actor Factory created house_plant
+[2017.11.05-18.12.03:173][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.12.07:839][892]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.12.13:612][552]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.12.17:912][ 23]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.12.28:686][144]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.05-18.12.28:944][169]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.12.57:666][320]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-18.13.00:545][608]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.11.05-18.13.00:908][631]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.13.08:308][389]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.13.17:863][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-18.13.19:138][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior" FILE="G:/ToastProject/Content/Toaster_Interior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-18.13.23:825][510]LogSavePackage: Save=4606.33ms
+[2017.11.05-18.13.23:825][510]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior19FABC4C43D2355BD0041890848B9E73.tmp' to 'G:/ToastProject/Content/Toaster_Interior.umap'
+[2017.11.05-18.13.23:887][510]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior.umap
+[2017.11.05-18.13.23:985][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior_BuiltData" FILE="G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset" SILENT=true
+[2017.11.05-18.13.24:880][510]LogSavePackage: Save=827.84ms
+[2017.11.05-18.13.24:880][510]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior_BuiltDataB865A69E45B02982E2E6218721A19AEC.tmp' to 'G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset'
+[2017.11.05-18.13.24:947][510]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset
+[2017.11.05-18.13.26:774][680]MapCheck: New page: Map Check
+[2017.11.05-18.13.26:789][680]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.05-18.13.26:789][680]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.05-18.13.26:802][680]LightingResults: New page: Lighting Build - Nov 5, 2017, 4:13:26 AM
+[2017.11.05-18.13.26:861][680]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.05-18.13.26:865][680]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.05-18.13.26:865][680]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.05-18.13.26:866][680]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.05-18.13.26:866][680]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9196
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.05-18.13.31:378][680]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.05-18.13.31:597][680]LogEditorBuildUtils: Build time 0:04
+[2017.11.05-18.13.31:619][680]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _null_Mat, compiling. 
+[2017.11.05-18.13.31:626][680]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _null_Mat, compiling. 
+[2017.11.05-18.13.36:635][696]Job is a success!
+[2017.11.05-18.13.37:026][697]LogMaterial:Warning: Material /Game/Plant/_null_Mat._null_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-18.13.37:030][697]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.11.05-18.13.37:225][697]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 32X32)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 256X128)
+[2017.11.05-18.13.37:226][697]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 256X256)
+[2017.11.05-18.13.37:261][697]Lightmass on DESKTOP-UMO80F6: 3.75 sec total, 169 ms importing, 55 ms setup, 336 ms photons, 3.17 sec processing, 0 ms extra exporting [42/42 mappings]. Threads: 22.0 sec total, 4.40 sec processing.
+[2017.11.05-18.13.37:271][697]LogStaticLightingSystem: Illumination: 10.1 sec (103 ms encoding lightmaps, 55 ms encoding shadowmaps)
+[2017.11.05-18.13.37:271][697]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2017.11.05-18.13.37:271][697]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.2 MB streaming, 0.3 MB non-streaming), 3 textures
+[2017.11.05-18.13.37:386][697]DumpUnbuiltLightIteractions
+[2017.11.05-18.13.37:386][697]Lights with unbuilt interactions: 0
+[2017.11.05-18.13.37:386][697]
+[2017.11.05-18.13.37:386][697]Primitives with unbuilt interactions: 0
+[2017.11.05-18.13.37:401][698]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.05-18.13.37:401][698]MapCheck: New page: Toaster_Interior - Nov 5, 2017, 4:13:37 AM
+[2017.11.05-18.13.37:538][698]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.497ms to complete.
+[2017.11.05-18.22.39:325][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior" FILE="G:/ToastProject/Content/Toaster_Interior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-18.22.44:413][685]LogSavePackage: Save=4997.43ms
+[2017.11.05-18.22.44:413][685]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior133FD2974E805347F265CCBC44F7025E.tmp' to 'G:/ToastProject/Content/Toaster_Interior.umap'
+[2017.11.05-18.22.44:480][685]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior.umap
+[2017.11.05-18.22.44:573][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Interior_BuiltData" FILE="G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset" SILENT=true
+[2017.11.05-18.22.45:488][685]LogSavePackage: Save=843.12ms
+[2017.11.05-18.22.45:489][685]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Interior_BuiltData7A23ECA44AB864656A05D182F9951D70.tmp' to 'G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset'
+[2017.11.05-18.22.45:555][685]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Interior_BuiltData.uasset
+[2017.11.05-18.22.51:798][939]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.05-18.22.51:817][939]LightingResults: New page: Lighting Build
+[2017.11.05-18.22.51:818][939]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.11.05-18.22.51:823][939]MapCheck: New page: Map Check
+[2017.11.05-18.22.51:823][939]LightingResults: New page: Lighting Build
+[2017.11.05-18.22.51:895][939]LogAIModule: Creating AISystem for world Untitled_2
+[2017.11.05-18.22.51:898][939]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_2.Untitled_2:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.05-18.22.51:901][939]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.05-18.22.51:930][939]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.05-18.22.52:010][939]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.965ms to complete.
+[2017.11.05-18.22.52:010][939]LogFileHelpers: Loading map 'Template_Default' took 0.214
+[2017.11.05-18.23.09:652][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior" FILE="G:/ToastProject/Content/Toaster_Exterior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-18.23.11:418][822]LogSavePackage: Save=1712.97ms
+[2017.11.05-18.23.11:418][822]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior53B25CE242ABFA027AB9998CD0B2BE72.tmp' to 'G:/ToastProject/Content/Toaster_Exterior.umap'
+[2017.11.05-18.23.11:432][822]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Exterior.umap
+[2017.11.05-18.23.11:515][822]LogFileHelpers: Saving map 'Toaster_Exterior' took 1.984
+[2017.11.05-18.23.11:517][822]Cmd: MAP LOAD FILE="G:/ToastProject/Content/Toaster_Exterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.05-18.23.11:529][822]LightingResults: New page: Lighting Build
+[2017.11.05-18.23.11:530][822]LoadErrors: New page: Loading map: Toaster_Exterior.umap
+[2017.11.05-18.23.11:531][822]MapCheck: New page: Map Check
+[2017.11.05-18.23.11:531][822]LightingResults: New page: Lighting Build
+[2017.11.05-18.23.11:595][822]LogAIModule: Creating AISystem for world Toaster_Exterior
+[2017.11.05-18.23.11:623][822]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.05-18.23.11:706][822]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.05-18.23.11:787][822]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.702ms to complete.
+[2017.11.05-18.23.11:787][822]LogFileHelpers: Loading map 'Toaster_Exterior' took 0.272
+[2017.11.05-18.23.26:388][554]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-18.23.26:713][586]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.11.05-18.23.28:201][758]Cmd: DELETE
+[2017.11.05-18.23.28:201][758]Cmd: ACTOR DELETE
+[2017.11.05-18.23.28:239][758]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.11.05-18.23.28:255][758]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2017.11.05-18.23.28:838][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-18.23.29:380][880]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.11.05-18.23.30:494][  8]Cmd: DELETE
+[2017.11.05-18.23.30:494][  8]Cmd: ACTOR DELETE
+[2017.11.05-18.23.30:495][  8]LogEditorActor: Deleted Actor: PlayerStart
+[2017.11.05-18.23.30:510][  8]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.11.05-18.23.35:362][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-18.23.35:702][577]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.23.40:211][ 85]Cmd: TRANSACTION UNDO
+[2017.11.05-18.23.40:211][ 85]LogEditorTransaction: Undo Scale Actors
+[2017.11.05-18.23.54:496][361]LogActorFactory: Actor Factory created toaster_Object
+[2017.11.05-18.23.55:108][414]LogActorFactory: Actor Factory created toaster_Object
+[2017.11.05-18.23.55:344][431]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.23.57:030][616]Cmd: DELETE
+[2017.11.05-18.23.57:030][616]Cmd: ACTOR DELETE
+[2017.11.05-18.23.57:031][616]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.05-18.23.57:048][616]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.05-18.23.58:196][700]LogActorFactory: Actor Factory created toaster_Object01
+[2017.11.05-18.23.58:656][744]LogActorFactory: Actor Factory created toaster_Object01
+[2017.11.05-18.23.59:219][788]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.24.02:789][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-18.32.59:832][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.05-18.33.01:526][656]LogSavePackage: Save=1615.38ms
+[2017.11.05-18.33.01:526][656]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior_Auto3F642D22645194B113BB84990ECC9DC2D.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto3.umap'
+[2017.11.05-18.33.01:541][656]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto3.umap
+[2017.11.05-18.33.01:564][656]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Toaster_Exterior' took 1.755
+[2017.11.05-18.33.01:564][656]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.755
+[2017.11.05-18.33.01:585][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Plant/house_plant] ([1] browsable assets)...
+[2017.11.05-18.33.01:623][656]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Plant/house_plant.house_plant]
+[2017.11.05-18.33.01:623][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Plant/house_plant]
+[2017.11.05-18.33.01:623][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/house_plant" FILE="G:/ToastProject/Saved/Autosaves/Game/Plant/house_plant_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.33.02:067][656]LogSavePackage: Save=415.17ms
+[2017.11.05-18.33.02:067][656]LogSavePackage: Moving 'G:/ToastProject/Saved/house_plant_Auto31868B22D40190A3C49F1E6AED9AADB28.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Plant/house_plant_Auto3.uasset'
+[2017.11.05-18.33.02:082][656]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Plant/house_plant_Auto3.uasset
+[2017.11.05-18.33.02:083][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Plant/_null_Mat] ([1] browsable assets)...
+[2017.11.05-18.33.02:120][656]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Plant/_null_Mat._null_Mat]
+[2017.11.05-18.33.02:120][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Plant/_null_Mat]
+[2017.11.05-18.33.02:120][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/_null_Mat" FILE="G:/ToastProject/Saved/Autosaves/Game/Plant/_null_Mat_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.33.02:191][656]LogSavePackage: Save=40.86ms
+[2017.11.05-18.33.02:191][656]LogSavePackage: Moving 'G:/ToastProject/Saved/_null_Mat_Auto3E59533B6480067FFE3B18D9D5BA3057E.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Plant/_null_Mat_Auto3.uasset'
+[2017.11.05-18.33.02:205][656]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Plant/_null_Mat_Auto3.uasset
+[2017.11.05-18.33.02:205][656]LogFileHelpers: Auto-saving content packages took 0.639
+[2017.11.05-18.47.43:550][836]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:/ToastProject/Plate.obj)
+[2017.11.05-18.47.43:574][836]LogFbx: Loading FBX Scene from G:/ToastProject/Plate.obj
+[2017.11.05-18.47.43:579][836]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.47.44:782][836]LogFbx: Loading FBX Scene from G:/ToastProject/Plate.obj
+[2017.11.05-18.47.44:787][836]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-18.47.44:792][836]LogLinker: Can't find file '/Game/initialShadingGroup'
+[2017.11.05-18.47.44:792][836]LogLinker: Can't find file '/Game/initialShadingGroup'
+[2017.11.05-18.47.44:826][836]LogMaterial: Missing cached shader map for material initialShadingGroup, compiling. 
+[2017.11.05-18.47.44:847][836]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2017.11.05-18.47.44:899][836]LogStaticMesh: Building static mesh Plate...
+[2017.11.05-18.47.44:904][836]LogStaticMesh: Built static mesh [0.01s] /Game/Plate.Plate
+[2017.11.05-18.47.44:953][836]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.05-18.47.52:510][402]LogActorFactory: Actor Factory created Plate
+[2017.11.05-18.47.54:294][524]LogActorFactory: Actor Factory created Plate
+[2017.11.05-18.47.55:515][630]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.48.06:614][579]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.48.20:541][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.48.32:580][802]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.49.15:154][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.05-18.49.16:945][509]LogSavePackage: Save=1700.51ms
+[2017.11.05-18.49.16:946][509]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior_Auto48DCEBCCD49AAAF5B9677858AC121C2BB.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto4.umap'
+[2017.11.05-18.49.16:961][509]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto4.umap
+[2017.11.05-18.49.16:985][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Toaster_Exterior' took 1.856
+[2017.11.05-18.49.16:985][509]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.856
+[2017.11.05-18.49.16:989][509]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Plate] ([1] browsable assets)...
+[2017.11.05-18.49.17:033][509]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Plate.Plate]
+[2017.11.05-18.49.17:033][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Plate]
+[2017.11.05-18.49.17:033][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plate" FILE="G:/ToastProject/Saved/Autosaves/Game/Plate_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.49.17:498][509]LogSavePackage: Save=434.44ms
+[2017.11.05-18.49.17:498][509]LogSavePackage: Moving 'G:/ToastProject/Saved/Plate_Auto44E3E5BC4407623BA12DD20BD8EB849B6.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Plate_Auto4.uasset'
+[2017.11.05-18.49.17:512][509]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Plate_Auto4.uasset
+[2017.11.05-18.49.17:514][509]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/initialShadingGroup] ([1] browsable assets)...
+[2017.11.05-18.49.17:557][509]OBJ SavePackage:     Rendered thumbnail for [Material /Game/initialShadingGroup.initialShadingGroup]
+[2017.11.05-18.49.17:557][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/initialShadingGroup]
+[2017.11.05-18.49.17:557][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/initialShadingGroup" FILE="G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-18.49.17:627][509]LogSavePackage: Save=39.02ms
+[2017.11.05-18.49.17:627][509]LogSavePackage: Moving 'G:/ToastProject/Saved/initialShadingGroup_Auto492005EC441E356A2BE310B8F5295DCD5.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto4.uasset'
+[2017.11.05-18.49.17:642][509]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto4.uasset
+[2017.11.05-18.49.17:642][509]LogFileHelpers: Auto-saving content packages took 0.654
+[2017.11.05-18.55.11:276][154]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.05-18.55.16:591][680]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.55.19:434][950]Cmd: TRANSACTION UNDO
+[2017.11.05-18.55.19:434][950]LogEditorTransaction: Undo Scale Actors
+[2017.11.05-18.55.21:650][141]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.55.26:722][623]Cmd: TRANSACTION UNDO
+[2017.11.05-18.55.26:722][623]LogEditorTransaction: Undo Scale Actors
+[2017.11.05-18.55.33:315][263]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.55.34:651][387]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.55.38:662][771]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.05-18.55.43:020][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior" FILE="G:/ToastProject/Content/Toaster_Exterior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-18.55.47:628][178]LogSavePackage: Save=4494.05ms
+[2017.11.05-18.55.47:629][178]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior3E5D1C674E07D38B051688A230BC3633.tmp' to 'G:/ToastProject/Content/Toaster_Exterior.umap'
+[2017.11.05-18.55.47:699][178]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Content/Toaster_Exterior.umap
+[2017.11.05-18.55.52:277][579]MapCheck: New page: Map Check
+[2017.11.05-18.55.52:295][579]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.05-18.55.52:295][579]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.05-18.55.52:301][579]LightingResults: New page: Lighting Build - Nov 5, 2017, 4:55:52 AM
+[2017.11.05-18.55.52:368][579]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.05-18.55.52:377][579]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.05-18.55.52:377][579]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.05-18.55.52:379][579]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.05-18.55.52:379][579]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9196
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.05-18.55.56:889][579]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.05-18.55.57:112][579]LogEditorBuildUtils: Build time 0:04
+[2017.11.05-18.55.57:151][580]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2017.11.05-18.55.57:161][580]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2017.11.05-18.55.57:203][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer initialShadingGroup, compiling. 
+[2017.11.05-18.55.57:213][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer initialShadingGroup, compiling. 
+[2017.11.05-18.56.00:871][710]LightingResults:Warning: Warning toaster_Object01 Object has overlapping UVs.
+[2017.11.05-18.56.00:871][710]LightingResults: Info toaster_Object01 Lightmap UV are overlapping by 61.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.05-18.56.00:933][714]Job is a success!
+[2017.11.05-18.56.01:030][715]LogMaterial:Warning: Material /Game/Toaster_Model/01_-_Default.01_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-18.56.01:036][715]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.11.05-18.56.01:066][715]LogMaterial:Warning: Material /Game/initialShadingGroup.initialShadingGroup needed to have new flag set bUsedWithStaticLighting !
+[2017.11.05-18.56.01:070][715]LogMaterial: Missing cached shader map for material initialShadingGroup, compiling. 
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 32X32)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 32X32)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X4)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.11.05-18.56.01:201][715]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2017.11.05-18.56.01:239][715]Lightmass on DESKTOP-UMO80F6: 1.90 sec total, 207 ms importing, 62 ms setup, 307 ms photons, 1.30 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 8.94 sec total, 1.58 sec processing.
+[2017.11.05-18.56.01:281][715]LogStaticLightingSystem: Illumination: 8.95 sec (32 ms encoding lightmaps, 47 ms encoding shadowmaps)
+[2017.11.05-18.56.01:281][715]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.05-18.56.01:282][715]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.05-18.56.01:896][715]DumpUnbuiltLightIteractions
+[2017.11.05-18.56.01:896][715]Lights with unbuilt interactions: 0
+[2017.11.05-18.56.01:896][715]
+[2017.11.05-18.56.01:896][715]Primitives with unbuilt interactions: 0
+[2017.11.05-18.56.01:922][716]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.05-18.56.01:923][716]MapCheck: New page: Toaster_Exterior - Nov 5, 2017, 4:56:01 AM
+[2017.11.05-18.56.02:055][716]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.969ms to complete.
+[2017.11.05-19.05.44:703][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.05-19.05.46:213][393]LogSavePackage: Save=1441.53ms
+[2017.11.05-19.05.46:213][393]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior_Auto55669B51C427E918B2E1C8D969246501E.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto5.umap'
+[2017.11.05-19.05.46:227][393]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_Auto5.umap
+[2017.11.05-19.05.46:250][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Toaster_Exterior' took 1.612
+[2017.11.05-19.05.46:250][393]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.612
+[2017.11.05-19.05.46:267][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Toaster_Model/01_-_Default] ([1] browsable assets)...
+[2017.11.05-19.05.46:305][393]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Toaster_Model/01_-_Default.01_-_Default]
+[2017.11.05-19.05.46:305][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Model/01_-_Default]
+[2017.11.05-19.05.46:305][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Model/01_-_Default" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-19.05.46:383][393]LogSavePackage: Save=45.94ms
+[2017.11.05-19.05.46:383][393]LogSavePackage: Moving 'G:/ToastProject/Saved/01_-_Default_Auto50625E2664B15E95536E46FA3D26791A7.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto5.uasset'
+[2017.11.05-19.05.46:398][393]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Model/01_-_Default_Auto5.uasset
+[2017.11.05-19.05.46:399][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/initialShadingGroup] ([1] browsable assets)...
+[2017.11.05-19.05.46:427][393]OBJ SavePackage:     Rendered thumbnail for [Material /Game/initialShadingGroup.initialShadingGroup]
+[2017.11.05-19.05.46:427][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/initialShadingGroup]
+[2017.11.05-19.05.46:427][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/initialShadingGroup" FILE="G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-19.05.46:495][393]LogSavePackage: Save=36.59ms
+[2017.11.05-19.05.46:495][393]LogSavePackage: Moving 'G:/ToastProject/Saved/initialShadingGroup_Auto5F255FA624613432331F60690152A57FB.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto5.uasset'
+[2017.11.05-19.05.46:510][393]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/initialShadingGroup_Auto5.uasset
+[2017.11.05-19.05.46:512][393]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Toaster_Exterior_BuiltData] ([1] browsable assets)...
+[2017.11.05-19.05.46:512][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Toaster_Exterior_BuiltData]
+[2017.11.05-19.05.46:512][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toaster_Exterior_BuiltData" FILE="G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_BuiltData_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-19.05.47:273][393]LogSavePackage: Save=730.88ms
+[2017.11.05-19.05.47:273][393]LogSavePackage: Moving 'G:/ToastProject/Saved/Toaster_Exterior_BuiltData_Auto5FB0C309D40F2FB17AA720D8C5FDC1F90.tmp' to 'G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_BuiltData_Auto5.uasset'
+[2017.11.05-19.05.47:288][393]LogSavePackage:Display: Finished SavePackage G:/ToastProject/Saved/Autosaves/Game/Toaster_Exterior_BuiltData_Auto5.uasset
+[2017.11.05-19.05.47:288][393]LogFileHelpers: Auto-saving content packages took 1.024
